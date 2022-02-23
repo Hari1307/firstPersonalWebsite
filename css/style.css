@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+}
+.top-container{
+    position: relative; 
+    text-align: center;
+    background-color: #caffff;
+    padding-top: 100px;
+    /* here why we are making as relative means that 
+    content inside this div should be relative to only this div not body  */
+}
+.middle-container{
+    /* background-color:#FFADF0;   */
+    /* width: 200px;
+    height: 200px; 
+    margin: 10px; */
+    padding: 20px; 
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    /* width: 200px;
+    height: 200px; */
+    /* margin: 10px; */
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.contactme{
+    line-height: 3;
+}
+.copyright{
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+
+.button{
+    border: none;
+    margin: 50px 0;
+    border-radius: 10px;
+    color: white;
+    background-color:#66BFBF ;
+    font-size: 15px;
+    width: 350px;
+    font-weight: 600;
+    padding: 15px;
+}
+.button:hover{
+    background-color: #a5f3f3;
+}
+
+
+a{
+    text-decoration: none;
+    color:#11999E;
+    margin: 10px 10px;
+    line-height: 3;
+}
+.footer-link{
+    line-height: 3;
+    margin: 0 20px;
+}
+.footer-link:hover{
+    color: #eaf6f6;
+}
+p{
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 20px;
+    /* font-family: 'Montserrat'; */
+}
+
+/* font-family:verdana,sans-serif; */
+    /* font-family: serif; */
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+
+body{
+    /* from google font */
+    /* font-family: 'Merriweather', serif; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    margin:50px auto 0 auto; /* by this we are reducing the width of the h1 element and centering it using the margin property */
+
+    font-size: 90px;
+    font-family: 'Merriweather', serif;
+    /* margin-top: 50px; */
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+}
+span{
+    text-decoration: underline;
+    text-decoration: underline 2px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 442px;  
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.pro-img{
+    width: 250px;
+}
+.s1{
+    width: 25%;
+    border-radius: 50%;
+    float:left;
+    margin-right: 30px;
+}
+
+.s2{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.name1{
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+}
+.name2{
+    line-height: 1.8;
+}
+
+
+/* .skills{
+    display: inline-block;
+    width: 50%;
+} */
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.profile{
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+
+
+
+/* this is for bringing the text below the picture */
+/* .desc1{
+    clear:left;
+}
+
+.desc2{
+    clear: right;
+} */
+
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+    color: #a5f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .one{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+
+}
+.two{
+    background-color: blue;
+    height: 100px;
+    width: 100px;    
+    display: inline-block;
+    position: relative;
+    right: 100px;
+
+}
+.three{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    margin-left: -3.8px;
+} */
